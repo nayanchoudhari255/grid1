@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 1 task</title>
+    <style>
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+gap: 10px;
+  }
+  .box{
+   color: white;
+   padding: 10px;
+    background-color: gold;
+    font-size:20px ;
+  }
+  .a{
+    grid-row-start: 1;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .b{
+    grid-row-start: 20;
+    grid-row-end: 50;
+  }
+  .c{
+    grid-row-start: 20;
+    grid-row-end: 30;
+  }
+  .d{
+    grid-row-start: 20;
+    grid-row-end: 35;
+    
+  }
+  .e{
+    grid-row-start: 20;
+    grid-row-end: 43;
+  }
+  .f{
+    grid-row-start: 30;
+    grid-row-end: 50;
+  }
+  .g{
+    grid-row-start: 35;
+    grid-row-end:43 ;
+  }
+  .h{
+    grid-row-start:43;
+    grid-row-end: 50;
+  }
+  .i{
+    grid-row-start: 43;
+    grid-row-end: 50;
+  }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box a"  >1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+        <div class="box d">4</div>
+        <div class="box e">5</div>
+        <div class="box f">6</div>
+        <div class="box g">7</div>
+        <div class="box h">8</div>
+        <div class="box i">9</div>
+        
+       
+    </div>
+</body>
+</html>
